@@ -54,12 +54,25 @@
   color: var(--black);
   border-right: 1px solid var(--darkgrey);
   border-top: 1px solid var(--darkgrey);
+  cursor: pointer;
+}
+
+.pads:hover {
+  background-color: var(--midgrey);
+  transform: scale(1.03);
+  transition: 0.1s all ease-in-out;
 }
 
 .pads:last-child {
   color: var(--black);
   border-top: 1px solid var(--lightgrey);
   background-color: var(--orange);
+}
+
+.pads:last-child:hover {
+  background-color: var(--midgrey);
+  transform: scale(1.03);
+  transition: 0.1s all ease-in-out;
 }
 
 .zero {
