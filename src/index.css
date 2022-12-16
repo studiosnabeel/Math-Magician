@@ -6,6 +6,7 @@
   padding: 0;
   border: 0;
   font-family: 'Roboto', sans-serif;
+  transition: all 0.5s ease-out;
 }
 
 :root {
@@ -14,16 +15,110 @@
   --darkgrey: rgb(133 134 147);
   --midgrey: rgb(174, 174, 174);
   --black: rgb(16 11 4);
+  --blue: rgb(4, 21, 29);
+  --white: white;
 }
 
 .folder {
-  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--lightgrey);
+  margin: 10% 7%;
+  transition: all 0.5s ease-out;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: var(--blue);
+  margin: 20px;
+  padding: 4px 20px;
+}
+
+.quote-folder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: var(--blue);
+}
+
+.quote {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.active {
+  background-color: var(--orange);
+  padding: 0.7em;
+  border-radius: 10px;
+}
+
+.calc-folder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px;
+  background-color: var(--blue);
+}
+
+h1 {
+  color: var(--orange);
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--white);
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0 10px;
+  font-size: 1em;
+}
+
+p {
+  color: var(--white);
+  font-size: 1rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--blue);
+  padding: 1.5em 7%;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 0.5em;
+}
+
+.header nav ul li {
+  list-style: none;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1em;
+  font-weight: 700;
 }
 
 .Calculator {
-  background-color: var(--lightgrey);
+  background-color: transparent;
   width: 50%;
-  margin: 5% auto;
+  margin: 10px;
+  padding: 0.41rem;
+  border: 1px solid var(--orange);
 }
 
 .row {
