@@ -6,6 +6,7 @@
   padding: 0;
   border: 0;
   font-family: 'Roboto', sans-serif;
+  transition: all 0.5s ease-out;
 }
 
 :root {
@@ -17,7 +18,16 @@
 }
 
 .folder {
-  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--primary);
+  margin: 10% 7%;
+  transition: all 0.5s ease-out;
+}
+
+.quote {
+  padding: 10%;
 }
 
 .active {
