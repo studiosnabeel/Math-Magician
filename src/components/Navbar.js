@@ -8,9 +8,7 @@ function Navbar() {
     setActive(e.target.innerHTML);
   };
 
-  useEffect(() => {
-    console.log('first');
-  }, [active]);
+  useEffect(() => {}, [active]);
 
   return (
     <div>
