@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://mathaholic.netlify.app/)
 
 ## 🚀 Project Details
 
